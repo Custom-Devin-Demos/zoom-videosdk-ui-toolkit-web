@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LangEn from "./en-US.json";
-// import LangDe from './de-DE.json';
+import LangDe from './de-DE.json';
 // import LangES from './es-ES.json';
 // import LangFr from './fr-FR.json';
 // import LangJa from './ja-JP.json';
@@ -22,9 +22,9 @@ export const resources = {
   "en-US": {
     translation: LangEn,
   },
-  // 'de-DE': {
-  //   translation: LangDe
-  // },
+  'de-DE': {
+    translation: LangDe,
+  },
   // 'es-ES': {
   //   translation: LangES
   // },
