@@ -5,7 +5,7 @@ import LangEn from "./en-US.json";
 // import LangES from './es-ES.json';
 // import LangFr from './fr-FR.json';
 // import LangJa from './ja-JP.json';
-// import LangPt from './pt-PT.json';
+import LangPt from './pt-PT.json';
 // import LangRu from './ru-RU.json';
 import LangZhCN from "./zh-CN.json";
 // import LangZhTW from './zh-TW.json';
@@ -34,9 +34,9 @@ export const resources = {
   // 'jp-JP': {
   //   translation: LangJp
   // },
-  // 'pt-PT': {
-  //   translation: LangPt
-  // },
+  'pt-PT': {
+    translation: LangPt,
+  },
   // 'ru-RU': {
   //   translation: LangRu
   // },
