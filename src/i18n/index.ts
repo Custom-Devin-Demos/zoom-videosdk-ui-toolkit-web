@@ -1,17 +1,17 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LangEn from "./en-US.json";
-// import LangDe from './de-DE.json';
-// import LangES from './es-ES.json';
-// import LangFr from './fr-FR.json';
-// import LangJa from './ja-JP.json';
-// import LangPt from './pt-PT.json';
-// import LangRu from './ru-RU.json';
+import LangDe from "./de-DE.json";
+import LangES from "./es-ES.json";
+import LangFr from "./fr-FR.json";
+import LangJa from "./ja-JP.json";
+import LangPt from "./pt-PT.json";
+import LangRu from "./ru-RU.json";
 import LangZhCN from "./zh-CN.json";
-// import LangZhTW from './zh-TW.json';
-// import LangKo from './ko-KR.json';
-// import LangVi from './vi-VN.json';
-// import LangIt from './it-IT.json';
+import LangZhTW from "./zh-TW.json";
+import LangKo from "./ko-KR.json";
+import LangVi from "./vi-VN.json";
+import LangIt from "./it-IT.json";
 // import LangPl from './pl-PL.json';
 // import LangTr from './tr-TR.json';
 // import LangId from './id-ID.json';
@@ -22,39 +22,39 @@ export const resources = {
   "en-US": {
     translation: LangEn,
   },
-  // 'de-DE': {
-  //   translation: LangDe
-  // },
-  // 'es-ES': {
-  //   translation: LangES
-  // },
-  // 'fr-FR': {
-  //   translation: LangFr
-  // },
-  // 'jp-JP': {
-  //   translation: LangJp
-  // },
-  // 'pt-PT': {
-  //   translation: LangPt
-  // },
-  // 'ru-RU': {
-  //   translation: LangRu
-  // },
+  "de-DE": {
+    translation: LangDe,
+  },
+  "es-ES": {
+    translation: LangES,
+  },
+  "fr-FR": {
+    translation: LangFr,
+  },
+  "ja-JP": {
+    translation: LangJa,
+  },
+  "pt-PT": {
+    translation: LangPt,
+  },
+  "ru-RU": {
+    translation: LangRu,
+  },
   "zh-CN": {
     translation: LangZhCN,
   },
-  // 'zh-TW': {
-  //   translation: LangZhTW
-  // },
-  // 'ko-KO': {
-  //   translation: LangKo
-  // },
-  // 'vi-VN': {
-  //   translation: LangVi
-  // },
-  // 'it-IT': {
-  //   translation: LangIt
-  // },
+  "zh-TW": {
+    translation: LangZhTW,
+  },
+  "ko-KR": {
+    translation: LangKo,
+  },
+  "vi-VN": {
+    translation: LangVi,
+  },
+  "it-IT": {
+    translation: LangIt,
+  },
   // 'pl-PL': {
   //   translation: LangPl
   // },
