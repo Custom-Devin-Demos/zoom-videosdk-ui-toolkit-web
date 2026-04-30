@@ -9,7 +9,7 @@ import LangEn from "./en-US.json";
 // import LangRu from './ru-RU.json';
 import LangZhCN from "./zh-CN.json";
 // import LangZhTW from './zh-TW.json';
-// import LangKo from './ko-KR.json';
+import LangKo from './ko-KR.json';
 // import LangVi from './vi-VN.json';
 // import LangIt from './it-IT.json';
 // import LangPl from './pl-PL.json';
@@ -46,9 +46,9 @@ export const resources = {
   // 'zh-TW': {
   //   translation: LangZhTW
   // },
-  // 'ko-KO': {
-  //   translation: LangKo
-  // },
+  'ko-KR': {
+    translation: LangKo,
+  },
   // 'vi-VN': {
   //   translation: LangVi
   // },
